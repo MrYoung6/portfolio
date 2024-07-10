@@ -1,0 +1,11 @@
+footer {
+    height: 15vh;
+    padding: 4rem 0;
+    border-top: 1px solid rgb(64, 207, 255);
+    margin-top: 200px;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
