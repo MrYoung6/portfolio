@@ -152,9 +152,6 @@
     height: auto;
     border-radius: 20px;
     background-color: black;
-    /* border: 3px solid white; */
-    /* border-radius: 10px; */
-    /* margin-left: 100px; */
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -197,7 +194,6 @@
   
   .info-p {
     width: 50%;
-    /* padding-bottom: 50px; */
   }
 
   .main-p{
@@ -263,31 +259,23 @@
     }
   
     .info-img img {
-      /* width: 65%; */
       height: auto;
     }
   
     .info-p {
       width: 100%;
       padding: 3rem 0 0 1rem;
-      /* font-size: 1.2rem; */
   
     }
 
     .btm-skills {
       width: 90%;
-      /* background-color: transparent; */
     }
 
     .skills-container{ 
       margin-bottom: 0;
     }
 
-    /* .stack-container{
-      grid-template-columns: 1fr;
-      align-items: center;
-    }
-   */
   
   }
 

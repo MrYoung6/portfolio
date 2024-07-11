@@ -181,7 +181,7 @@ button.live svg, button.code svg {
 
   .project-img{
     width: auto;
-    /* height: 100%; */
+
   }
 
   .right-side{
@@ -199,7 +199,7 @@ button.live svg, button.code svg {
 
   .project-info{
     max-width: 700px;
-    /* font-size: 1.1rem; */
+
   }
   
   .live{

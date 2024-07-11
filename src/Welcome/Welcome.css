@@ -245,9 +245,7 @@
     .welcome-section {
       flex-direction: column-reverse;
       text-align: center;
-      /* align-items: center; */
       height: auto;
-      /* padding-top: 30px; */
     }
   
 
@@ -258,21 +256,12 @@
       padding-left: 0;
     }
   
-    /* .text-container>h1 {
-      font-size: 4.8rem;
-    } */
-  
-    /* .text-container>p{
-      font-size: 1.5rem;
-    } */
 
     .btns {
       margin-right: 0px;
     }
 
     .hire{
-      /* font-size: 0.9rem; */
-    /* padding: 0.7rem 3rem; */
     white-space: nowrap;
 
     }
@@ -296,23 +285,5 @@
       height: 200px;
       margin-top: 0;
     }
-  
-    /* .hand-img {
-      width: 200px;
-      height: 150px;
-      margin-bottom: 50px;
-    } */
-  
-    /* @media (max-width: 440px) {
-  
-      .welcome-p {
-        font-size: 2.2rem;
-      }
-  
-      .text-container h1 {
-        font: 5.5rem;
-      }
-  
-    } */
-  
+
   }
