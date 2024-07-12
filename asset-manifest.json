@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa4bd613.css",
-    "main.js": "/static/js/main.b4f15ba9.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "index.html": "/index.html",
-    "main.aa4bd613.css.map": "/static/css/main.aa4bd613.css.map",
-    "main.b4f15ba9.js.map": "/static/js/main.b4f15ba9.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.aa4bd613.css",
+    "main.js": "/portfolio/static/js/main.868493d1.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Screen Shot 2024-05-31 at 12.12.40 PM.png": "/portfolio/static/media/Screen Shot 2024-05-31 at 12.12.40 PM.cc57ca8d339969e1cb52.png",
+    "static/media/pulse play screenshot.png": "/portfolio/static/media/pulse play screenshot.8e54b553e9f29d0d985f.png",
+    "static/media/Screen Shot 2024-06-21 at 1.52.04 PM.png": "/portfolio/static/media/Screen Shot 2024-06-21 at 1.52.04 PM.4b007a88963af2cde62f.png",
+    "static/media/Screen Shot 2024-06-12 at 3.19.09 PM.png": "/portfolio/static/media/Screen Shot 2024-06-12 at 3.19.09 PM.32e5e922dbc20fbb360d.png",
+    "static/media/redditstream screenshot.png": "/portfolio/static/media/redditstream screenshot.117fdd34815890d648a6.png",
+    "static/media/turtle tap screenshot.png": "/portfolio/static/media/turtle tap screenshot.acdb765ef54ac3d95591.png",
+    "static/media/70DE3834-C087-4AE2-96E3-479959F2C068_1_105_c.jpeg": "/portfolio/static/media/70DE3834-C087-4AE2-96E3-479959F2C068_1_105_c.47a0ddbe3500254ac339.jpeg",
+    "static/media/IMG_0528 2.jpg": "/portfolio/static/media/IMG_0528 2.878ee291aa15462a0cd6.jpg",
+    "static/media/bball.png": "/portfolio/static/media/bball.1c462155c6b01afd4586.png",
+    "index.html": "/portfolio/index.html",
+    "main.aa4bd613.css.map": "/portfolio/static/css/main.aa4bd613.css.map",
+    "main.868493d1.js.map": "/portfolio/static/js/main.868493d1.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa4bd613.css",
-    "static/js/main.b4f15ba9.js"
+    "static/js/main.868493d1.js"
   ]
 }
