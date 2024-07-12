@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutImg from '../images/70DE3834-C087-4AE2-96E3-479959F2C068_1_105_c.jpeg'
 import './About.css'
 
 function About() {
@@ -37,7 +38,7 @@ function About() {
         <h2>About</h2>
         <div className="more-info">
           <div className="info-img">
-            <img src="../../images/70DE3834-C087-4AE2-96E3-479959F2C068_1_105_c.jpeg" />
+            <img src={aboutImg} alt='' />
           </div>
           <div className="info-p">
             <p className='main-p'>As a front-end web developer, I excel in HTML, CSS, and JavaScript, creating captivating user interfaces. I have hands-on experience rebuilding websites for a karate school over a few months, where I developed a website enabling users to access the karate school schedule and explore various programs offered. I also implemented functionality to view upcoming events and provided information about the karate instructors.</p>

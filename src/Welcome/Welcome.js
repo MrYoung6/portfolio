@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import profileImge from '../images/IMG_0528 2.jpg'
 import './Welcome.css'
 
 
@@ -53,7 +54,7 @@ function Welcome() {
         </div>
       </div>
       <div className="img-container">
-        <img className="profile-img" alt='profile' src='../../images/IMG_0528 2.jpg' />
+        <img className="profile-img" alt='profile' src={profileImge} />
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import bBall from '../images/bball.png'
 import './Contact.css'
 
 function Contact() {
@@ -80,7 +81,7 @@ function Contact() {
       <div className="contact-header">
         <h2>Contact <span>Me</span></h2>
         <p>let's get the ball rolling</p>
-        <img src="./images/bball.png" className="bball-img" />
+        <img src={bBall} className="bball-img" />
       </div>
       <form type="submit"
         className='contact-form'

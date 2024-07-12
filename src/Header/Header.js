@@ -1,5 +1,4 @@
 import React,{useEffect} from 'react'
-import { Link } from 'react-router-dom';
 import './Header.css'
 
 function Header() {
@@ -41,13 +40,13 @@ useEffect(() => {
         <div className="nav-list">
           <ul>
             <li>
-              <Link to='/about'>About</Link>
+              <a href='#skills'>About</a>
             </li>
             <li>
-              <Link to="/projects">Work</Link>
+              <a href="#projects">Work</a>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

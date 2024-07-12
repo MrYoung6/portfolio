@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import Header from './Header/Header'
 import Welcome from './Welcome/Welcome';
 import About from './About/About';
@@ -24,9 +24,8 @@ function App() {
   }, []);
 
   return (
-
-    <div>
-      <Router>
+    <Router basename="/portfolio">
+      <div>
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -698,16 +697,13 @@ function App() {
           }}
         />
         <Header />
-        <Routes>
-          <Route path='/' element={<Welcome />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
+        <Welcome />
+        <About />
+        <Projects />
+        <Contact />
         <Footer />
-      </Router>
-    </div>
-
+      </div>
+    </Router>
   );
 }
 
