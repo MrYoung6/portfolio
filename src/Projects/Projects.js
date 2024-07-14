@@ -96,7 +96,7 @@ function Projects() {
         </div>
         <div className='right-side'>
           <h3 className='project-title'>Link Shortener</h3>
-          <p className='project-info'>I developed this responsive web application using React, ensuring it was optimized for all screen sizes. The core functionality of the app revolves around a URL shortener API, which allows users to generate shortened links effortlessly. Once shortened, these links are displayed in an accessible list format, making it easy for users to manage and retrieve them. To enhance user experience, I implemented a feature that enables users to copy any shortened link to their clipboard with a single click. Additionally, I incorporated error handling to notify users if they attempt to shorten an invalid URL or leave the input field empty, ensuring a seamless and intuitive interaction with the application.</p>
+          <p className='project-info'>I developed a responsive web app using React, centered around a URL shortener API. Users can easily generate, manage, and retrieve shortened links, which are displayed in a list format. Features include one-click copying of links to the clipboard and error handling for invalid or empty URLs, ensuring a smooth user experience.</p>
           <a href='https://shortenerapi.netlify.app' rel="noreferrer" target="_blank">
             <button className='live'>Site<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -119,7 +119,7 @@ function Projects() {
       <div className="cover">
         <div className='left-side'>
           <a href="https://redditstream.netlify.app/" rel="noreferrer" target="_blank" className="project project-tile">
-            <img className="project-img" src={reddit} />
+            <img className="project-img" src={reddit} alt=""/>
           </a>
         </div>
         <div className='right-side'>
@@ -147,7 +147,7 @@ function Projects() {
       <div className="cover">
         <div className='left-side'>
           <a href="https://pulseplay2.netlify.app" rel="noreferrer" target="_blank" className="project project-tile">
-            <img className="project-img" src={pulse} />
+            <img className="project-img" src={pulse} alt=""/>
           </a>
         </div>
         <div className='right-side'>
@@ -174,7 +174,7 @@ function Projects() {
       <div className="cover">
         <div className='left-side'>
           <a href="https://danforthkarate.com" target="_blank" className="project project-tile">
-            <img className="project-img" src={karate} />
+            <img className="project-img" src={karate} alt=''/>
           </a>
         </div>
         <div className='right-side'>

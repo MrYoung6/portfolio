@@ -62,19 +62,19 @@ function Contact() {
     };
   }, []);
 
-  function showDiv(event) {
+  // function showDiv(event) {
 
-    const info = document.getElementById('info');
-    const info2 = document.getElementById('info2');
+  //   const info = document.getElementById('info');
+  //   const info2 = document.getElementById('info2');
 
-    if (info.style.display === 'flex') {
-      info.style.display = 'none';
-    } else {
-      info.style.display = 'flex';
-      info2.style.display = 'none';
-    }
-    event.preventDefault();
-  }
+  //   if (info.style.display === 'flex') {
+  //     info.style.display = 'none';
+  //   } else {
+  //     info.style.display = 'flex';
+  //     info2.style.display = 'none';
+  //   }
+  //   event.preventDefault();
+  // }
 
   return (
     <div id="contact" className="contact-section hide">
